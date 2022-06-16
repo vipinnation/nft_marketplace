@@ -227,6 +227,7 @@ const NavBar = (props) => {
 
 								<Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
 									{pages.map((page) => (
+										<span key={page.name}>
 										<Link href={page.link}>
 											<Button
 												key={page.name}
@@ -241,6 +242,7 @@ const NavBar = (props) => {
 												{page.name}
 											</Button>
 										</Link>
+										</span>
 									))}
 									<Button
 										color="white"

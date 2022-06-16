@@ -189,7 +189,7 @@ const FooterLinks = () => {
 								color="inherit"
 								sx={{ "&:hover": { textDecoration: "underline" } }}
 							>
-								My NFT's
+								My NFTs
 							</Typography>
 						</a>
 					</Link>
